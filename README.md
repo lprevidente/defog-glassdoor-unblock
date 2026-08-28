@@ -1,14 +1,12 @@
 <p align="center">
-  <img src="icons/icon128.png" alt="Defog logo" width="96" height="96">
+  <img src="icons/icon128.png" alt="Defog — Glassdoor unblock extension logo" width="96" height="96">
 </p>
-
-<h1 align="center">Defog — Glassdoor Unblock</h1>
-
-<p align="center">Remove the paywalls, blur overlays and clutter that Glassdoor puts between you and the reviews you're trying to read.</p>
+<h1 align="center">Defog — Glassdoor Unblock Chrome Extension</h1>
+<p align="center">A free Chrome extension that removes Glassdoor's blur overlay, paywall and login prompts — read company reviews and salaries without signing up.</p>
 
 ## What it does
 
-Glassdoor blurs review content, drops sign-in-to-unlock buttons over reviews, truncates long text behind a "continue reading" link, and layers cookie/login banners on top of everything until you create an account. Defog strips all of that out as the page loads, so the content is readable straight away.
+Glassdoor blurs review content, drops sign-in-to-unlock buttons over reviews, truncates long text behind a "continue reading" link, and layers cookie/login banners on top of everything until you create an account. Defog is a lightweight Chrome extension that strips all of that out as the page loads, so the content is readable straight away — no Glassdoor account required.
 
 Specifically, it:
 
@@ -43,6 +41,14 @@ Since it's not on the Web Store, you install it as an "unpacked" extension. This
 ### Keeping it up to date
 
 Unpacked extensions don't auto-update. To get the latest version, pull the latest changes (or re-download the ZIP) and click the refresh icon for Defog on `chrome://extensions`.
+
+## FAQ
+
+**Is this safe to use?**
+Yes — Defog only hides/unhides DOM elements on pages you already have open. It doesn't send any data anywhere; see the source in this repo.
+
+**Do I need a Glassdoor account?**
+No. Defog removes the sign-in wall so you can read reviews and salary data without creating an account.
 
 ## Found a bug?
 
